@@ -13,8 +13,11 @@
     },
     "autoload": {
         "psr-4": {
-            "Thomas\\BaseProject\\": "src/"
-        }
+            "Src\\": "src/"
+        },
+        "files": [
+            "config/config.php"
+        ]
     },
     "authors": [
         {
